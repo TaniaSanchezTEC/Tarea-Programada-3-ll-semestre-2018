@@ -1,0 +1,10 @@
+1:   Nombre: Secreto 		Tiempo: 00:00:04
+2:   Nombre: Secreto 		Tiempo: 00:00:05
+3:   Nombre: Secreto 		Tiempo: 00:00:16
+4:   Nombre: Secreto 		Tiempo: 00:00:21
+5:   Nombre: Secreto 		Tiempo: 00:00:27
+6:   Nombre: Disponible 		Tiempo: 00:00:00
+7:   Nombre: Disponible 		Tiempo: 00:00:00
+8:   Nombre: Disponible 		Tiempo: 00:00:00
+9:   Nombre: Disponible 		Tiempo: 00:00:00
+10:  Nombre: Disponible 		Tiempo: 00:00:00
