@@ -951,7 +951,7 @@ class juego(tkinter.Tk):
         try:
             matriz [int(campoTexto[-1])-1][int(campoTexto[-2])-1]= numero
         except:
-            messagebox.showinfo("ERROR","PRIMERO DEBE SELECCIONAR UNA CASILLA.")
+            messagebox.showinfo("ERROR","Primero debe seleccionar una casilla")
 
         """ubica el valor recibido en el campo que tenga el mismo nombre leido anteriormente"""
         if (campoTexto == "texto11" or campoTexto == "texto12" or campoTexto == "texto13"or campoTexto == "texto14"or campoTexto == "texto15"or \
@@ -967,7 +967,7 @@ class juego(tkinter.Tk):
 
             
     def nada (menu):
-        messagebox.showinfo("ERROR","NO SE HA INICIADO EL JUEGO.")
+        messagebox.showinfo("ERROR","No se ha iniciado el juego.")
 
     def Key(menu, event):
         char = event.char
@@ -1120,7 +1120,7 @@ class juego(tkinter.Tk):
                 os.system("xx.mp3")
 
         else:
-            messagebox.showinfo("INCORRECTO","HAY ERRORES EN EL JUEGO")
+            messagebox.showinfo("INCORRECTO","Hay errores en el juego.")
 
         
     def iguales(menu):
@@ -1170,7 +1170,7 @@ class juego(tkinter.Tk):
             foco.delete('1.0', END)
             foco.insert(END, " ")
         else:
-            messagebox.showinfo("ERROR","PRIMERO DEBE SELECCIONAR UNA CASILLA.")
+            messagebox.showinfo("ERROR","Primero debe seleccionar una casilla.")
 
 
     def acercaDe(menu):
@@ -1186,7 +1186,7 @@ class juego(tkinter.Tk):
         global tiempo
         tiempo = False
 
-        respuesta = tkinter.messagebox.askyesno("DETENIDO","¿REANUDAR?")
+        respuesta = tkinter.messagebox.askyesno("DETENIDO","¿Reanudar?")
         
         if respuesta:
             if crono == 2:
@@ -1477,7 +1477,7 @@ class juego(tkinter.Tk):
 
 
     def termina (menu):
-        respuesta = tkinter.messagebox.askyesno("OTRO","¿ESTA SEGURO DE TERMINAR ESTE JUEGO?")
+        respuesta = tkinter.messagebox.askyesno("OTRO","¿Esta seguro de terminar este juego?")
         
         if respuesta:
             """Destruir esta ventana"""
